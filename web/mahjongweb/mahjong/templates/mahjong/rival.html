@@ -1,0 +1,39 @@
+<head><title>{{name}}同桌统计</title></head>
+<a href="/user/{{name}}">[返回用户信息]</a>
+<h1>{{name}}同桌统计</h1>
+<table border="1">
+    <tr>
+        <td>对手昵称</td>
+	<td>仇恨值</td>
+        <td>相遇数</td>
+	<td>我的胜率</td>
+	<td>对手1位</td>
+	<td>对手2位</td>
+	<td>对手3位</td>
+	<td>对手4位</td>
+	<td>对手均顺</td>
+	<td>自己1位</td>
+	<td>自己2位</td>
+	<td>自己3位</td>
+	<td>自己4位</td>
+	<td>自己均顺</td>
+    </tr>
+    {% for o in opponents %}
+    <tr>
+        <td><a href="/user/{{ o.Username }}">{{ o.Username }}</a></td>
+        <td>{{o.rivalvalue}}</td>
+        <td>{{o.encountertime}}</td>
+	<td>{{o.winrate|floatformat:2}}%</td>
+	<td>{{o.oppo1time}} ({{o.oppo1rate|floatformat:1}}%)</td>
+	<td>{{o.oppo2time}} ({{o.oppo2rate|floatformat:1}}%)</td>
+	<td>{{o.oppo3time}} ({{o.oppo3rate|floatformat:1}}%)</td>
+	<td>{{o.oppo4time}} ({{o.oppo4rate|floatformat:1}}%)</td>
+	<td>{{o.oppoavg|floatformat:1}}</td>
+	<td>{{o.self1time}} ({{o.self1rate|floatformat:1}}%)</td>
+	<td>{{o.self2time}} ({{o.self2rate|floatformat:1}}%)</td>
+	<td>{{o.self3time}} ({{o.self3rate|floatformat:1}}%)</td>
+	<td>{{o.self4time}} ({{o.self4rate|floatformat:1}}%)</td>
+	<td>{{o.selfavg|floatformat:1}}</td>
+    </tr>
+    {% endfor %}
+</table>

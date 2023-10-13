@@ -1,0 +1,15 @@
+{% if battles %}
+    <ul>
+    {% for b in battles %}
+        <li>
+            <a href="user/{{ b.User1 }}">{{ b.User1 }}</a>: {{ b.point1 }}, 
+            <a href="user/{{ b.User2 }}">{{ b.User2 }}</a>: {{ b.point2 }}, 
+            <a href="user/{{ b.User3 }}">{{ b.User3 }}</a>: {{ b.point3 }},
+            <a href="user/{{ b.User4 }}">{{ b.User4 }}</a>: {{ b.point4 }}
+	    | {{b.date|date:"Y-m-d H:i:s"}}
+        </li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No data.</p>
+{% endif %}

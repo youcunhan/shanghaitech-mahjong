@@ -1,0 +1,36 @@
+[0m2023-07-22 04:13:01 V/Net 3459246674: Invalidate caches because hash file not available.[0m
+[0m2023-07-22 04:13:01 V/Net 3459246674: No server list cached.[0m
+[92m2023-07-22 04:13:20 I/Net 3459246674: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-07-22 04:13:20 I/Net 3459246674: Successfully fetched ecdh public key from server.[0m
+[0m2023-07-22 04:13:20 V/Net 3459246674: [AuthControl/acquire] Acquiring auth method[0m
+[96m2023-07-22 04:13:20 D/Net 3459246674: [AuthControl/acquire] Authorization responded: Password@2069367491[0m
+[0m2023-07-22 04:13:26 V/Net 3459246674: Send: wtlogin.login(9:password-login)[0m
+[0m2023-07-22 04:13:27 V/Net 3459246674: Recv: wtlogin.login[0m
+[0m2023-07-22 04:13:28 V/Net 3459246674: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-07-22 04:13:29 V/Net 3459246674: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-07-22 04:13:44 V/Net 3459246674: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-07-22 04:13:44 V/Net 3459246674: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[93m2023-07-22 04:20:21 W/Net 3459246674: Failed with auth method: Password@2069367491
+StateSwitchingException(old=StateConnecting, new=StateClosed, cause=null)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.setStateImpl$mirai_core(NetworkHandlerSupport.kt:352)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler.close(CommonNetworkHandler.kt:425)
+	at net.mamoe.mirai.internal.network.handler.selector.SelectorNetworkHandler.close(SelectorNetworkHandler.kt:119)
+	at net.mamoe.mirai.internal.AbstractBot.close(AbstractBot.kt:118)
+	at net.mamoe.mirai.internal.QQAndroidBot.close(QQAndroidBot.kt:98)
+	at net.mamoe.mirai.Bot.closeAndJoin$suspendImpl(Bot.kt:245)
+	at net.mamoe.mirai.Bot.closeAndJoin(Bot.kt)
+	at net.mamoe.mirai.Bot.closeAndJoin$default(Bot.kt:244)
+	at net.mamoe.mirai.console.MiraiConsoleImplementation$Companion.shutdown$mirai_console(MiraiConsoleImplementation.kt:452)
+	at net.mamoe.mirai.console.MiraiConsole$INSTANCE$shutdown$1.invokeSuspend(MiraiConsole.kt:293)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m
+[0m2023-07-22 04:20:21 V/Net 3459246674: [AuthControl/resume] Fire auth failed with cause: StateSwitchingException(old=StateConnecting, new=StateClosed, cause=null)[0m
+[93m2023-07-22 04:20:21 W/Net 3459246674: Exception in resumeConnection.
+net.mamoe.mirai.internal.network.handler.selector.SelectorRequireReconnectException
+[0m
+[93m2023-07-22 04:20:21 W/Net 3459246674: Network selector received exception, closing bot. (net.mamoe.mirai.internal.network.handler.selector.SelectorRequireReconnectException)[0m

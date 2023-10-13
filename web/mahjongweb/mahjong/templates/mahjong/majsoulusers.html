@@ -1,0 +1,18 @@
+<head>
+    <title>比赛用户列表</title>
+</head>
+<a href="/">[返回主页]</a>
+<h1>比赛用户列表</h1>
+<h2>目前为止和牌总宝牌数量：{{doranum}}</h2>
+<table border="1">
+    <tr>
+        <td>昵称</td>
+        <td>pt</td>
+    </tr>
+    {% for u in users %}
+    <tr>
+	<td>{{u.nickname}}</td>
+        <td>{{u.pt|floatformat:1}}</td>
+    </tr>
+    {% endfor %}
+</table>

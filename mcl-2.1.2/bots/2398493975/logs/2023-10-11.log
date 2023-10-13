@@ -1,0 +1,144 @@
+[0m2023-10-11 00:10:43 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-10-11 00:10:43 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-10-11 00:50:49 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-10-11 00:50:49 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-10-11 01:02:14 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-11 01:02:15 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-11 01:30:50 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-10-11 01:30:50 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-10-11 02:10:50 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-10-11 02:10:51 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-10-11 02:50:57 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-10-11 02:50:57 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-10-11 03:30:57 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-10-11 03:30:57 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-10-11 04:10:58 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-10-11 04:10:58 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-10-11 04:51:04 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-10-11 04:51:04 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-10-11 05:31:05 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-10-11 05:31:05 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-10-11 06:11:05 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-10-11 06:11:05 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-10-11 06:51:12 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-10-11 06:51:12 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-10-11 07:31:12 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-10-11 07:31:12 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-10-11 08:11:13 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-10-11 08:11:13 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-10-11 08:51:19 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-10-11 08:51:19 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-10-11 09:31:20 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-10-11 09:31:20 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-10-11 09:45:34 V/: Send: wtlogin.exchange_emp(15:refresh-keys)[0m
+[0m2023-10-11 09:45:34 V/: Recv: wtlogin.exchange_emp[0m
+[92m2023-10-11 09:45:34 I/: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2023-10-11 10:11:21 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-10-11 10:11:21 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-10-11 10:33:24 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-11 10:33:24 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-11 10:51:28 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-10-11 10:51:28 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-10-11 11:07:29 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-11 11:07:29 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-11 11:10:11 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-11 11:10:12 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-11 11:31:28 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-10-11 11:31:28 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-10-11 12:10:47 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-11 12:10:48 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-11 12:11:29 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-10-11 12:11:29 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-10-11 12:51:36 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-10-11 12:51:36 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-10-11 13:31:36 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-10-11 13:31:36 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-10-11 14:11:37 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-10-11 14:11:37 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-10-11 14:45:32 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-11 14:45:32 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-11 14:45:33 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-10-11 14:45:33 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-10-11 14:51:44 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-10-11 14:51:44 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-10-11 15:08:19 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-11 15:08:19 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-11 15:20:45 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-11 15:20:45 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-11 15:26:51 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-11 15:26:52 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-11 15:31:44 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-10-11 15:31:44 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-10-11 15:34:16 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-11 15:34:16 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-11 15:54:05 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-11 15:54:05 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-11 16:07:43 V/: Send: MultiMsg.ApplyDown(MultiMsg.ApplyDown)[0m
+[0m2023-10-11 16:07:43 V/: Recv: MultiMsg.ApplyDown[0m
+[0m2023-10-11 16:07:43 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-10-11 16:07:43 V/: [Http] Downloading forward message: succeed[0m
+[0m2023-10-11 16:09:48 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-11 16:09:48 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-11 16:11:45 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-10-11 16:11:45 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-10-11 16:51:51 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-10-11 16:51:51 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-10-11 17:10:12 V/: Send: MultiMsg.ApplyDown(MultiMsg.ApplyDown)[0m
+[0m2023-10-11 17:10:12 V/: Recv: MultiMsg.ApplyDown[0m
+[0m2023-10-11 17:10:12 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-10-11 17:10:12 V/: [Http] Downloading forward message: succeed[0m
+[0m2023-10-11 17:31:52 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-10-11 17:31:52 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-10-11 18:11:53 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-10-11 18:11:53 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-10-11 18:51:59 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-10-11 18:51:59 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-10-11 19:31:59 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-10-11 19:32:00 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[96m2023-10-11 19:53:43 D/: Unknown Transformers528 0x14 template
+templId=10179
+PermList=[TemplParam#1038002230 {
+            name=invitor
+            value=1609323331
+    }, TemplParam#1038002230 {
+            name=invitee
+            value=3469392519
+    }][0m
+[0m2023-10-11 20:08:40 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-11 20:08:41 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-11 20:09:16 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-11 20:09:16 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-11 20:09:21 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-11 20:09:21 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-11 20:10:52 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-11 20:10:53 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-11 20:12:00 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-10-11 20:12:00 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-10-11 20:52:06 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-10-11 20:52:06 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-10-11 21:17:41 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-11 21:17:41 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-11 21:32:07 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-10-11 21:32:07 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-10-11 22:07:04 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-11 22:07:04 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-11 22:09:27 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-11 22:09:27 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-11 22:12:08 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-10-11 22:12:08 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-10-11 22:52:14 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-10-11 22:52:14 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-10-11 23:06:45 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-11 23:06:45 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-11 23:32:15 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-10-11 23:32:15 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-10-11 23:54:18 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-11 23:54:18 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-11 23:54:53 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-11 23:54:53 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-11 23:56:05 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-11 23:56:06 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-11 23:56:11 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-11 23:56:11 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-10-11 23:56:27 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-10-11 23:56:28 V/: Recv: MessageSvc.PbSendMsg[0m

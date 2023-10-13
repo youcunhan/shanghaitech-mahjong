@@ -1,0 +1,110 @@
+<head>
+    <title>{{user.Username}}的用户信息</title>
+</head>
+<a href="/">[返回主页]</a> <a href="/user">[返回用户列表]</a>  <a href="/rival/{{user.Username}}">[查看同桌统计]</a>
+<h1>{{user.Username}}</h1>
+<img id="avatar" src="https://q2.qlogo.cn/headimg_dl?dst_uin={{user.qqnumber}}&spec=640" height="200" width="200">
+<ul>
+    <li>
+        rate: {{ user.rate|floatformat:2 }}
+    </li>
+    <li>
+        段位:
+        {% if user.dan == 0 %}新人{% endif %}
+        {% if user.dan == 1 %}5级{% endif %}
+        {% if user.dan == 2 %}4级{% endif %}
+        {% if user.dan == 3 %}3级{% endif %}
+        {% if user.dan == 4 %}2级{% endif %}
+        {% if user.dan == 5 %}1级{% endif %}
+        {% if user.dan == 6 %}初段{% endif %}
+        {% if user.dan == 7 %}二段{% endif %}
+        {% if user.dan == 8 %}三段{% endif %}
+        {% if user.dan == 9 %}四段{% endif %}
+        {% if user.dan == 10 %}五段{% endif %}
+        {% if user.dan == 11 %}六段{% endif %}
+        {% if user.dan == 12 %}七段{% endif %}
+        {% if user.dan == 13 %}八段{% endif %}
+        {% if user.dan == 14 %}九段{% endif %}
+    </li>
+    <li>
+        升段所需对局{{Updantime}}({{user.timebeforeupdan}}), 均顺≤{{Updanjunshun}}({{junshun|floatformat:2}}), 顺位和≤{{Updanshunweihe}}({{shunweihe}})
+    </li>
+    <li>
+        总对战数: {{ user.alltime }}
+    </li>
+    <li>
+        一位: {{ user.firstplacetime }}, {{ firstrate }}%
+    </li>
+    <li>
+        二位: {{ user.secondplacetime }}, {{ secondrate }}%
+    </li>
+    <li>
+        三位: {{ user.thirdplacetime }}, {{ thirdrate }}%
+    </li>
+    <li>
+        四位: {{ user.forthplacetime }}, {{ forthrate }}%
+    </li>
+    <li>
+        均顺: {{ averageorder }}
+    </li>
+    <li>
+        场均点数: {{ averagepoint|floatformat:0 }}
+    </li>
+    <li>
+        被飞次数/被飞率: {{ beifeicishu }}, {{ beifeilv|floatformat:2}}%
+    </li>
+</ul>
+<h2>对战记录</h2>
+<ul>
+    {% if battles %}
+    {% for b in battles %}
+        {% if b.User1 == user.Username %}
+        <li>
+            <b><a href="/user/{{ b.User1 }}">{{ b.User1 }}</a>: {{ b.point1 }}</b>, 
+            <a href="/user/{{ b.User2 }}">{{ b.User2 }}</a>: {{ b.point2 }}, 
+            <a href="/user/{{ b.User3 }}">{{ b.User3 }}</a>: {{ b.point3 }},
+            <a href="/user/{{ b.User4 }}">{{ b.User4 }}</a>: {{ b.point4 }}
+        </li>
+        {% endif %}
+        {% if b.User2 == user.Username %}
+        <li>
+            <a href="/user/{{ b.User1 }}">{{ b.User1 }}</a>: {{ b.point1 }}, 
+            <b><a href="/user/{{ b.User2 }}">{{ b.User2 }}</a>: {{ b.point2 }}</b>, 
+            <a href="/user/{{ b.User3 }}">{{ b.User3 }}</a>: {{ b.point3 }},
+            <a href="/user/{{ b.User4 }}">{{ b.User4 }}</a>: {{ b.point4 }}
+        </li>
+        {% endif %}
+        {% if b.User3 == user.Username %}
+        <li>
+            <a href="/user/{{ b.User1 }}">{{ b.User1 }}</a>: {{ b.point1 }}, 
+            <a href="/user/{{ b.User2 }}">{{ b.User2 }}</a>: {{ b.point2 }}, 
+            <b><a href="/user/{{ b.User3 }}">{{ b.User3 }}</a>: {{ b.point3 }}</b>,
+            <a href="/user/{{ b.User4 }}">{{ b.User4 }}</a>: {{ b.point4 }}
+        </li>
+        {% endif %}
+        {% if b.User4 == user.Username %}
+        <li>
+            <a href="/user/{{ b.User1 }}">{{ b.User1 }}</a>: {{ b.point1 }}, 
+            <a href="/user/{{ b.User2 }}">{{ b.User2 }}</a>: {{ b.point2 }}, 
+            <a href="/user/{{ b.User3 }}">{{ b.User3 }}</a>: {{ b.point3 }},
+            <b><a href="/user/{{ b.User4 }}">{{ b.User4 }}</a>: {{ b.point4 }}</b>
+        </li>
+        {% endif %}
+	{{b.date|date:"Y-m-d H:i:s" }}
+    {% endfor %}
+    {% else %}
+        <p>没有对战记录，快开始游戏吧！</p>
+    {% endif %}
+</ul>
+<h2>役满记录</h2>
+<ul>
+    {% if yakumans %}
+        {% for yaku in yakumans %}
+            <li>
+		    <a href={{yaku.yakuman_photo.url}}>{{yaku.yakuman_type}} |{{yaku.date|date:"Y-m-d H:i:s"}}</a>
+            </li>
+        {% endfor %}
+    {% else %}
+        <p>该用户还没有和过役满喵，真是太惨啦！</p>
+    {% endif %}
+</ul>
